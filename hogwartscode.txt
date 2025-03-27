@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enchanted Expression: A Hogwarts Lookbook</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f1ea;
+      color: #2d2d2d;
+    }
+    header {
+      background-color: #3a2f2f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    section.intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 3rem;
+    }
+    section.intro p {
+      font-size: 1.2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .look-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .look-card:hover {
+      transform: scale(1.03);
+    }
+    .look-card img {
+      width: 100%;
+      height: auto;
+    }
+    .look-card .content {
+      padding: 1rem;
+    }
+    .look-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.3rem;
+    }
+    .look-card p {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Enchanted Expression</h1>
+    <p>Discover Your Hogwarts Style</p>
+  </header>
+  <main>
+    <section class="intro">
+      <p>Hogwarts students wear uniforms — but that doesn't mean they can't show who they are! Explore our magical lookbook full of inspired ways to personalize your school robes with flair and spellbinding creativity.</p>
+    </section>
+
+    <section class="gallery">
+      <div class="look-card">
+        <img src="https://via.placeholder.com/400x300?text=The+Punk+Prefect" alt="The Punk Prefect">
+        <div class="content">
+          <h3>The Punk Prefect</h3>
+          <p>Safety pin charms, dragon-hide boots, and silver studs — this look brings a rebellious edge to traditional robes.</p>
+        </div>
+      </div>
+
+      <div class="look-card">
+        <img src="https://via.placeholder.com/400x300?text=Herbology+Chic" alt="Herbology Chic">
+        <div class="content">
+          <h3>Herbology Chic</h3>
+          <p>Flowing sleeves, earth-toned embroidery, and pockets full of enchanted seeds for the plant lover in class.</p>
+        </div>
+      </div>
+
+      <div class="look-card">
+        <img src="https://via.placeholder.com/400x300?text=Celestial+Scholar" alt="Celestial Scholar">
+        <div class="content">
+          <h3>Celestial Scholar</h3>
+          <p>Starry cloak lining, constellation brooches, and a charm-enhanced monocle to gaze at the skies in style.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
